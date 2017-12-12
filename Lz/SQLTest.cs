@@ -8,9 +8,9 @@ namespace LibraryinfoSystem.Lz
 {
     class SQLTest
     {
-        public SQLTest(int info)
+        public static string getHello()
         {
-            Console.Write("Hello World");
+            return "Hello World";
         }
     }
 }
